@@ -1,0 +1,1 @@
+.\elastic-search-scripts\delete-index.bat

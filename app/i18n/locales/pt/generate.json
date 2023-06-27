@@ -1,0 +1,10 @@
+{
+  "prompt": "Prompt do ChatGPT",
+  "send-message": "Enviar mensagem",
+  "response": "Resposta do ChatGPT",
+  "new-blog": "Novo Blog",
+  "title": "Título:",
+  "content": "Conteúdo:",
+  "excerpt": "Resumo:",
+  "publish": "Publicar"
+}

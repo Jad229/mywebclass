@@ -1,0 +1,9 @@
+{
+  "login": "Iniciar sesión",
+  "email-address": "Correo electrónico",
+  "incorrect": "El correo electrónico o la contraseña son incorrectos.",
+  "register": "Haz clic aquí para registrarte",
+  "not-a-user": "¿No eres usuario?",
+  "sign-in": "o Iniciar sesión con",
+  "password": "Contraseña"
+}

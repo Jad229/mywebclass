@@ -1,0 +1,6 @@
+{
+    "title": "This is a blog title",
+    "content": "this blog title should get slugified",
+    "excerpt": "slugging titles my dude"
+}
+    

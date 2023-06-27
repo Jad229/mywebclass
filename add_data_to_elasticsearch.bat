@@ -1,0 +1,1 @@
+.\elastic-search-scripts\add-index-with-docs.bat

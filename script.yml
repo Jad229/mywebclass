@@ -1,0 +1,19 @@
+config:
+  target: "https://mywebclass.tejpatel.live"
+  phases:
+    - duration: 10
+      arrivalRate: 10
+  metrics:
+    - name: "http_req_duration"
+      interval: 1
+      percentile: 95
+scenarios:
+  - name: "Homepage"
+    flow:
+      - get:
+          url: "/"
+      - get:
+          url: "/blogs"
+      - get:
+          url: "/"
+

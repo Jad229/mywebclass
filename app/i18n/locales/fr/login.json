@@ -1,0 +1,9 @@
+{
+  "login": "Connexion",
+  "email-address": "Adresse email",
+  "incorrect": "L'adresse e-mail ou le mot de passe est incorrect.",
+  "register": "Cliquez ici pour vous inscrire",
+  "not-a-user": "Pas encore utilisateur ?",
+  "sign-in": "ou Connectez-vous avec",
+  "password": "Mot de passe"
+}

@@ -1,0 +1,9 @@
+{
+  "login": "Login",
+  "email-address": "Email Address",
+  "incorrect": "Email or password is incorrect.",
+  "register": "Click here to register",
+  "not-a-user": "Not a user?",
+  "sign-in": "Sign in with Google",
+  "password": "Password"
+}

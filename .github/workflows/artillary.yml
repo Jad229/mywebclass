@@ -1,0 +1,30 @@
+name: Load Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  load-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Run load test
+        run: |
+          npm install -g artillery
+          artillery run script.yml -o art-report.json
+
+      - name: Upload HTML report as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: load-test-report
+          path: art-report.json
